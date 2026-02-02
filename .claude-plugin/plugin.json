@@ -5,6 +5,7 @@
   "author": {
     "name": "@martiano / @themartiano"
   },
+  "homepage": "https://github.com/themartiano/claude-sounds",
   "repository": "https://github.com/themartiano/claude-sounds",
   "license": "MIT",
   "keywords": ["sound", "alert", "ping", "notification", "idle", "command"]

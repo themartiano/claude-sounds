@@ -1,0 +1,17 @@
+{
+  "name": "claude-sounds",
+  "owner": {
+    "name": "@martiano / @themartiano"
+  },
+  "plugins": [
+    {
+      "name": "claude-sounds",
+      "description": "Claude Code plugin that pings you when Claude is waiting for you.",
+      "version": "1.0.0",
+      "source": "./",
+      "author": {
+        "name": "@martiano / @themartiano"
+      },
+    }
+  ]
+}
