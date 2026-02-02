@@ -1,6 +1,6 @@
 {
   "name": "claude-sounds",
-  "description": "Claude Code plugin that pings you when Claude is waiting for you.",
+  "description": "Claude Code plugin that plays sounds when Claude is waiting for you.",
   "version": "1.0.0",
   "author": {
     "name": "@martiano / @themartiano"
