@@ -1,0 +1,5 @@
+{
+  "name": "alert-sounds",
+  "description": "Play audio alerts when Claude Code needs user input or completes tasks",
+  "version": "1.0.0"
+}
