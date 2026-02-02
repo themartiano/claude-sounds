@@ -1,0 +1,18 @@
+# Claude Sounds Configuration
+# Copy this file to ~/.config/claude-sounds/config
+#
+# All settings can also be overridden with environment variables:
+#   CLAUDE_SOUNDS_THRESHOLD - overrides THRESHOLD
+#   CLAUDE_SOUNDS_DIR       - overrides SOUNDS_DIR
+
+# Minimum session duration (in seconds) before playing completion sound.
+# Sessions shorter than this won't trigger a sound on completion.
+# Default: 60
+THRESHOLD=60
+
+# Custom sounds directory. Place your own sound files here:
+#   - completion.mp3  (played when a long task completes)
+#   - needs_input.mp3 (played when Claude needs permission)
+#   - attention.mp3   (played for MCP elicitation dialogs)
+# Default: uses the plugin's built-in sounds
+# SOUNDS_DIR="$HOME/.config/claude-sounds/sounds"

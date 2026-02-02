@@ -2,23 +2,23 @@
   "hooks": {
     "UserPromptSubmit": [
       {
-        "hooks": [{ "type": "command", "command": "${CLAUDE_PLUGIN_ROOT}/scripts/play-sound.sh start" }]
+        "hooks": [{ "type": "command", "command": "${CLAUDE_PLUGIN_ROOT}/scripts/play.sh start" }]
       }
     ],
     "PermissionRequest": [
       {
-        "hooks": [{ "type": "command", "command": "${CLAUDE_PLUGIN_ROOT}/scripts/play-sound.sh permission" }]
+        "hooks": [{ "type": "command", "command": "${CLAUDE_PLUGIN_ROOT}/scripts/play.sh permission" }]
       }
     ],
     "Notification": [
       {
         "matcher": "elicitation_dialog",
-        "hooks": [{ "type": "command", "command": "${CLAUDE_PLUGIN_ROOT}/scripts/play-sound.sh mcp" }]
+        "hooks": [{ "type": "command", "command": "${CLAUDE_PLUGIN_ROOT}/scripts/play.sh mcp" }]
       }
     ],
     "Stop": [
       {
-        "hooks": [{ "type": "command", "command": "${CLAUDE_PLUGIN_ROOT}/scripts/play-sound.sh complete" }]
+        "hooks": [{ "type": "command", "command": "${CLAUDE_PLUGIN_ROOT}/scripts/play.sh complete" }]
       }
     ]
   }
