@@ -20,7 +20,8 @@ play_sound() {
       fi
       ;;
     MINGW*|MSYS*|CYGWIN*)
-      powershell.exe -c "Add-Type -AssemblyName PresentationCore; \$p = New-Object System.Windows.Media.MediaPlayer; \$p.Open('$1'); \$p.Play(); Start-Sleep -Seconds 3" &
+      WIN_PATH=$(cygpath -w "$1" 2>/dev/null || echo "$1" | sed 's|/|\\|g')
+      powershell.exe -c "Add-Type -AssemblyName PresentationCore; \$p = New-Object System.Windows.Media.MediaPlayer; \$p.Open('$WIN_PATH'); \$p.Play(); Start-Sleep -Seconds 3" &
       ;;
   esac
 }
