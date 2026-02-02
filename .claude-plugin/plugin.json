@@ -1,5 +1,11 @@
 {
-  "name": "alert-sounds",
-  "description": "Play audio alerts when Claude Code needs user input or completes tasks",
-  "version": "1.0.0"
+  "name": "claude-sounds",
+  "description": "Claude Code plugin that pings you when Claude is waiting for you.",
+  "version": "1.0.0",
+  "author": {
+    "name": "@martiano / @themartiano"
+  },
+  "repository": "https://github.com/themartiano/claude-sounds",
+  "license": "MIT",
+  "keywords": ["sound", "alert", "ping", "notification", "idle", "command"]
 }
