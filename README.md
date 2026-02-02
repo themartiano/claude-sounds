@@ -10,22 +10,22 @@ A Claude Code plugin that plays sounds when Claude is waiting for you.
 
 ## Install
 
-In Claude Code, first add the marketplace:
+First add the marketplace:
 
 ```bash
-/plugin marketplace add themartiano/claude-sounds
+claude plugin marketplace add themartiano/claude-sounds
 ```
 
 Then install the plugin:
 
 ```bash
-/plugin install claude-sounds@claude-sounds
+claude plugin install claude-sounds
 ```
 
 ## Updating
 
 ```bash
-/plugin update claude-sounds
+claude plugin update claude-sounds
 ```
 
 ## Configuration
